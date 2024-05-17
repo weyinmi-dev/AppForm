@@ -12,6 +12,6 @@ namespace DTOs.DataTransferObjects
         public Guid Id { get; init; }
         public QuestionType Type { get; init; }
         public string? Text { get; init; } = string.Empty;
-        public List<string> Options { get; init; } = new List<string>();
+        public List<string>? Options { get; init; } = new List<string>();
     }
 }

@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationForm", "ApplicationForm\ApplicationForm.csproj", "{0DEFE902-60F5-4B08-88BF-217C6FD80270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationForm", "ApplicationForm\ApplicationForm.csproj", "{0DEFE902-60F5-4B08-88BF-217C6FD80270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{6800F197-FA9A-4E31-973C-E2534BCC73DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{6800F197-FA9A-4E31-973C-E2534BCC73DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{CF64C67F-D6A7-4EEE-ACF2-3A996CEFBF23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{CF64C67F-D6A7-4EEE-ACF2-3A996CEFBF23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{638F828A-A736-4EE8-9164-96996CFBC3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{638F828A-A736-4EE8-9164-96996CFBC3BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{9073ADF3-DF0F-4B64-9497-56BCA6B2D5A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{9073ADF3-DF0F-4B64-9497-56BCA6B2D5A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{709EA7B6-5171-49C2-9F41-D0E6914FC320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOs", "DTOs\DTOs.csproj", "{709EA7B6-5171-49C2-9F41-D0E6914FC320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{ED2F8358-516F-44CE-B661-223D094DC10D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{ED2F8358-516F-44CE-B661-223D094DC10D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFormTest", "AppFormTest\AppFormTest.csproj", "{3D61E550-211C-4CA7-BB61-708897312E63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{709EA7B6-5171-49C2-9F41-D0E6914FC320} = {709EA7B6-5171-49C2-9F41-D0E6914FC320}
+		{CF64C67F-D6A7-4EEE-ACF2-3A996CEFBF23} = {CF64C67F-D6A7-4EEE-ACF2-3A996CEFBF23}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,10 @@ Global
 		{ED2F8358-516F-44CE-B661-223D094DC10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED2F8358-516F-44CE-B661-223D094DC10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED2F8358-516F-44CE-B661-223D094DC10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D61E550-211C-4CA7-BB61-708897312E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D61E550-211C-4CA7-BB61-708897312E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D61E550-211C-4CA7-BB61-708897312E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D61E550-211C-4CA7-BB61-708897312E63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
