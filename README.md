@@ -8,10 +8,6 @@ This is a .NET Core Web API project for managing application forms, including cr
 - [Features](#features)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [License](#license)
 
 ## Overview
 
@@ -48,20 +44,7 @@ The ApplicationForm project consists of two main controllers:
    ```bash
    git clone https://github.com/weyinmi-dev/AppForm.git
    cd ApplicationForm
-Install the required packages:
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. 
 
-### Explanation
-
-1. **Overview**: Provides a brief summary of what the project does.
-2. **Features**: Lists the main features of the application.
-3. **Technologies**: Lists the main technologies used.
-4. **Setup**: Includes prerequisites, installation steps, and how to configure the application.
-5. **Usage**: Describes how to use Swagger for API documentation and how to run the Cosmos DB Emulator.
-6. **API Endpoints**: Describes the available API endpoints with their methods, descriptions, and expected payloads or responses.
-7. **Testing**: Explains how to run the unit tests and where they are located.
-8. **License**: Mentions the licensing of the project. 
-
-This `README.md` file should help anyone understand the project setup, usage, and struct
